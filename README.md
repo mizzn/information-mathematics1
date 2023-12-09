@@ -1,6 +1,6 @@
 # 情報数理特論第一回課題
 最小全域木問題を授業で扱ったprim法，kruskal法，boruvka法で解き，それぞれの実行時間を比較した． 
-ソースコードは[github]()にて参照可能．   
+ソースコードは[github](https://github.com/mizzn/information-mathematics1)にて参照可能．   
 
 ## 実行結果
 ![](result.png)
