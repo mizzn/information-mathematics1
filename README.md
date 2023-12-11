@@ -3,7 +3,7 @@
 ソースコードは[github](https://github.com/mizzn/information-mathematics1)にて参照可能．   
 
 ## 実行結果
-![](result.png)
+![](result.png)  
 primとkruskalはほぼ同等の実行時間となった．  
 boruvkaはprim, kruskalとおよそ2倍ほどの実行時間になった．これは，隣接リストを方向を区別して与えているため，同じ処理を重複して実行しているためであると考えられる．
 
@@ -14,8 +14,8 @@ boruvkaはprim, kruskalとおよそ2倍ほどの実行時間になった．こ�
 
 デフォルト値は，  
 sims = 10 # シミュレーション数  
-node_size_min = 10 # 最初のノード数
-node_size_max = 500 # 最大のノード数
+node_size_min = 10 # 最初のノード数  
+node_size_max = 500 # 最大のノード数  
 node_diff = 10 # ノード数の変化
 
 ## NetworkXでのテストデータの作成
